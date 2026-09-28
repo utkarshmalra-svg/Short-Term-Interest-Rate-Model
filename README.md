@@ -107,29 +107,6 @@ The important difference is the **$\sqrt{r_t}$** term in the volatility componen
 
 ---
 
-# 🧮 Simulation Method
-
-The Vasicek model is simulated using Euler discretization:
-
-$$
-r_{t+\Delta t}
-=
-r_t+a(b-r_t)\Delta t
-+
-\sigma\sqrt{\Delta t}\epsilon_t
-$$
-
-Where:
-
-- $\Delta t$ = time step
-- $\epsilon_t$ = standard normal random variable
-- $a(b-r_t)$ = mean-reversion component
-- $\sigma\sqrt{\Delta t}\epsilon_t$ = random shock
-
-Multiple paths are generated to demonstrate possible future interest-rate movements.
-
----
-
 # ⚙️ Model Parameters
 
 ### Vasicek
@@ -221,22 +198,3 @@ Through this project, I explored:
 - Implementation of quantitative finance models in Excel
 
 ---
-
-# 📁 Project Structure
-
-```text
-interest-rate-models-vasicek-cir/
-│
-├── README.md
-│
-├── Excel/
-│   └── Interest_Rate_Models.xlsx
-│
-├── Screenshots/
-│   ├── Vasicek_Model.png
-│   ├── Vasicek_Simulations.png
-│   ├── CIR_Model.png
-│   └── CIR_Simulations.png
-│
-└── Documentation/
-    └── Interest_Rate_Model_Notes.pdf
