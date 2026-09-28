@@ -1,1 +1,1 @@
-# Short-Term-Interest-Rate-Model
+# interest-rate-models-vasicek-cir
