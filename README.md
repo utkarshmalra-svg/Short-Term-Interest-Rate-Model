@@ -47,7 +47,7 @@ Multiple simulated interest-rate paths generated using the CIR model.
 
 The complete Excel workbook containing the model calculations, simulation tables, parameters, and charts is available here:
 
-👉 **[Download the Excel Interest Rate Model](Excel/Interest_Rate_Models.xlsx)**
+👉 [Download the Excel Interest Rate Model](./Short-Term%20Interest%20Rate%20Simulation.xlsx)
 
 The workbook contains:
 
